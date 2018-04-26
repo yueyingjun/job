@@ -1,0 +1,38 @@
+/**index.wxss**/
+.list{
+  width:100%;height:100px;
+  padding:5px;box-sizing: border-box;
+  display: flex;
+  border-bottom:1px solid #ccc;
+}
+.list .img{
+  width:80px;height:80px;
+  margin-right:20px;
+}
+.list .img image{
+  width:100%;height:100%;
+}
+.text{
+  width:180px;height:100%;
+}
+.text .title{
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.text .job{
+  font-size:14px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.text .money{
+  font-size:14px;
+}
+.text .address{
+  font-size:14px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}

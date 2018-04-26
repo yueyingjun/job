@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="box">
+   <view class="list" wx:for="{{data}}">
+     <view class="img">
+         <image src="./job.jpeg"></image>
+     </view>
+     <view class="text">
+         <view class="title"> 
+             {{item.title}}
+         </view>
+         <view class="job">
+           职位：{{item.job}}
+         </view>
+         <view class="money">
+           薪资：{{item.money}}
+         </view>
+         <view class="address">
+           地址：{{item.address}}
+         </view>
+     </view>
+   </view>
+   
+
+   
+</view>
