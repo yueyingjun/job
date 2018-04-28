@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="box">
-   <view class="list" wx:for="{{data}}">
+   <view class="list" wx:for="{{data}}" wx:key="index">
      <view class="img">
          <image src="./job.jpeg"></image>
      </view>

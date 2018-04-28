@@ -1,22 +1,10 @@
+var data=require("./data.js")
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-    data:[{
-      title:"山西优逸客",
-      job:"微信开发工程师",
-      money:"8000",
-      address:"太原市学府街平阳路口凯通大厦"
-    },
-      {
-        title: "运城学院",
-        job: "老师",
-        money: "8000",
-        address: "xxxxxx"
-      }
-    ]
+    data: data
   },
 
   /**
